@@ -1,0 +1,42 @@
+{
+  "name": "Goldmart - Gold Jewellery Marketplace",
+  "short_name": "Goldmart",
+  "description": "Your trusted marketplace for authentic gold jewellery from verified local jewellers",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#FFD700",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["shopping", "lifestyle"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Browse Jewellery",
+      "short_name": "Jewellery",
+      "description": "Explore gold jewellery collections",
+      "url": "/jewellery",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Find Shops",
+      "short_name": "Shops",
+      "description": "Discover trusted jewellers",
+      "url": "/shops",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}

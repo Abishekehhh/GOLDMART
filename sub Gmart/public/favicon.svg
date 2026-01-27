@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <!-- Gold gradient -->
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FFA500;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF8C00;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Diamond shine gradient -->
+    <linearGradient id="diamondShine" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#FFD700;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#FFA500;stop-opacity:0.4" />
+    </linearGradient>
+    
+    <!-- Shadow -->
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="48" fill="url(#goldGradient)" filter="url(#shadow)"/>
+  
+  <!-- Diamond shape -->
+  <path d="M 50 15 L 65 40 L 50 75 L 35 40 Z" fill="url(#diamondShine)" stroke="#FF8C00" stroke-width="1.5"/>
+  
+  <!-- Inner diamond highlight -->
+  <path d="M 50 25 L 58 40 L 50 65 L 42 40 Z" fill="#FFFFFF" opacity="0.4"/>
+  
+  <!-- Letter G in the center -->
+  <text x="50" y="58" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#FF8C00" text-anchor="middle" opacity="0.9">G</text>
+  
+  <!-- Sparkle effects -->
+  <circle cx="30" cy="25" r="2" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="70" cy="25" r="2" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="25" cy="50" r="1.5" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="75" cy="50" r="1.5" fill="#FFFFFF" opacity="0.8"/>
+</svg>
