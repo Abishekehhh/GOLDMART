@@ -1,0 +1,11 @@
+{
+  "name": "gold-mart",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm --prefix \"sub Gmart\" run dev",
+    "build": "npm --prefix \"sub Gmart\" run build",
+    "preview": "npm --prefix \"sub Gmart\" run preview"
+  }
+}
+
